@@ -14,6 +14,7 @@ public class WeatherReportMain {
 
   private final ApplicationContext context;
 
+  // Bora.
   @Autowired
   public WeatherReportMain(ApplicationContext context) {
     this.context = context;
