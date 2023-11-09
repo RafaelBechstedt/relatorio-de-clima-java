@@ -21,7 +21,6 @@ public class WeatherServiceImp implements WeatherService {
   @Override
   public String getWeatherReport(String city) {
     String weather = weatherClient.getWeather(city);
-    String weatherReport = "O clima é: " + weather;
-    return weatherReport;
+    return "O clima é: " + weather;
   }
 }
